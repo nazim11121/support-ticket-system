@@ -1,0 +1,207 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics",
+      "permission": "view-dashboard",
+       "roles": ["admin"]
+    },
+    {
+      "menuHeader": "Pages"
+    },
+    {
+      "name": "Slider",
+      "icon": "menu-icon tf-icons bx bx-grid-alt",
+      "slug": "slider",
+      "submenu": [
+        {
+          "url": "/admin/slider",
+          "name": "List",
+          "slug": "slider.index"
+        },
+        {
+          "url": "/admin/slider/create",
+          "name": "Create",
+          "slug": "slider.create"
+        }
+      ]  
+    },
+    {
+      "name": "Donor",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "donor",
+      "submenu": [
+        {
+          "url": "/admin/donor",
+          "name": "List",
+          "slug": "donor.index"
+        },
+        {
+          "url": "/admin/donor/create",
+          "name": "Create",
+          "slug": "donor.create"
+        }
+      ]  
+    },
+    {
+      "name": "Blood Request",
+      "icon": "menu-icon tf-icons bx bx-comment",
+      "slug": "blood-request",
+      "submenu": [
+        {
+          "url": "/admin/blood-request",
+          "name": "List",
+          "slug": "blood-request.index"
+        },
+        {
+          "url": "/admin/blood-request/create",
+          "name": "Create",
+          "slug": "blood-request.create"
+        },
+        {
+          "url": "/admin/blood-request/response-list",
+          "name": "Response List",
+          "slug": "blood-request.response"
+        }
+      ]  
+    },
+    {
+      "name": "Hospital",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "hospital",
+      "submenu": [
+        {
+          "url": "/admin/hospital",
+          "name": "List",
+          "slug": "hospital.index"
+        },
+        {
+          "url": "/admin/hospital/create",
+          "name": "Create",
+          "slug": "hospital.create"
+        }
+      ]  
+    },
+    {
+      "name": "College/University",
+      "icon": "menu-icon tf-icons bx bx-book",
+      "slug": "university",
+      "submenu": [
+        {
+          "url": "/admin/university",
+          "name": "List",
+          "slug": "university.index"
+        },
+        {
+          "url": "/admin/university/create",
+          "name": "Create",
+          "slug": "university.create"
+        }
+      ]  
+    },
+    {
+      "name": "Group",
+      "icon": "menu-icon tf-icons bx bx-receipt",
+      "slug": "group",
+      "submenu": [
+        {
+          "url": "/admin/group",
+          "name": "List",
+          "slug": "group.index"
+        },
+        {
+          "url": "/admin/group/create",
+          "name": "Create",
+          "slug": "group.create"
+        }
+      ]  
+    },
+    {
+      "name": "Event",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "event",
+      "submenu": [
+        {
+          "url": "/admin/event",
+          "name": "List",
+          "slug": "event.index"
+        },
+        {
+          "url": "/admin/event/create",
+          "name": "Create",
+          "slug": "event.create"
+        }
+      ]  
+    },
+    {
+      "name": "Facilities",
+      "icon": "menu-icon tf-icons bx bx-car",
+      "slug": "facilities",
+      "submenu": [
+        {
+          "url": "/admin/facilities",
+          "name": "List",
+          "slug": "facilities.index"
+        },
+        {
+          "url": "/admin/facilities/create",
+          "name": "Create",
+          "slug": "facilities.create"
+        }
+      ]  
+    },
+    {
+      "name": "Blood Bank",
+      "icon": "menu-icon tf-icons bx bx-water",
+      "slug": "blood-bank",
+      "submenu": [
+        {
+          "url": "/admin/blood-bank",
+          "name": "List",
+          "slug": "blood-bank.index"
+        },
+        {
+          "url": "/admin/blood-bank/create",
+          "name": "Create",
+          "slug": "blood-bank.create"
+        }
+      ]  
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user-circle",
+      "slug": "users",
+      "submenu": [
+        {
+          "url": "/admin/users",
+          "name": "List",
+          "slug": "users.index"
+        },
+        {
+          "url": "/admin/users/create",
+          "name": "Create",
+          "slug": "users.create"
+        }
+      ]  
+    },
+    {
+      "name": "Role & Permissions",
+      "icon": "menu-icon tf-icons bx bx-slider",
+      "slug": "roles",
+      "submenu": [
+        {
+          "url": "/admin/roles",
+          "name": "List",
+          "slug": "roles.index"
+        },
+        {
+          "url": "/admin/roles/create",
+          "name": "Create",
+          "slug": "roles.create"
+        }
+      ]  
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "text": "Dashboard",
+        "url": "/dashboard",
+        "permission": "view-dashboard"
+    },
+    {
+        "text": "Products",
+        "url": "/products",
+        "permission": "view-products"
+    },
+    {
+        "text": "Orders",
+        "url": "/orders",
+        "permission": "view-orders"
+    },
+    {
+        "text": "Users",
+        "url": "/users",
+        "permission": "view-users"
+    }
+]
